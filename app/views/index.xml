@@ -1,13 +1,15 @@
 <Alloy>
-  <Window id="index" layout="horizontal">
-    <View class="container">
-      <View class="background">
-        <Label id="showButton" class="button" />
+  <Window id="index">
+    <View layout="horizontal">
+      <View class="container">
+        <View class="background" onClick="openRetrievalMethod">
+          <Label id="showButton" class="button" />
+        </View>
       </View>
-    </View>
-    <View class="container">
-      <View class="background">
-        <Label id="writeButton" class="button" />
+      <View class="container">
+        <View class="background" onClick="openWriteWin">
+          <Label id="writeButton" class="button" />
+        </View>
       </View>
     </View>
   </Window>

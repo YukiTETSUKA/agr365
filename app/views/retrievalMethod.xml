@@ -1,0 +1,17 @@
+<Alloy>
+  <View id="view" layout="vertical">
+    <View id="titlebar" />
+    <View layout="horizontal">
+      <View class="container">
+        <View class="background">
+          <Label id="workButton" class="button" />
+        </View>
+      </View>
+      <View class="container">
+        <View class="background">
+          <Label id="dateButton" class="button" />
+        </View>
+      </View>
+    </View>
+  </View>
+</Alloy>

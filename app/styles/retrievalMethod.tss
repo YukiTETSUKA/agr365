@@ -1,0 +1,17 @@
+/* tag */
+
+/* id */
+"#titlebar": {
+  height: "10%",
+  width: Ti.UI.FILL,
+}
+
+"#workButton": {
+  text: "作\n業\nで\n探\nす",
+}
+
+"#dateButton": {
+  text: "日\n付\nで\n探\nす",
+}
+
+/* class */

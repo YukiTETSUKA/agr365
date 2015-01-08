@@ -1,0 +1,32 @@
+/* tag */
+
+/* id */
+"#index": {
+  backgroundColor: "#51b11d",
+}
+
+"#view": {
+  backgroundColor: "#51b11d",
+}
+
+/* class */
+".container": {
+  height: Ti.UI.FILL,
+  width: "50%",
+}
+
+".background": {
+  height: "90%",
+  width: "90%",
+  backgroundColor: "#a27000",
+}
+
+".button": {
+  height: "95%",
+  width: "95%",
+  backgroundColor: "#ffffff",
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  font: {
+    fontSize: "32dp",
+  },
+}
