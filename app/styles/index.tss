@@ -1,14 +1,35 @@
-".container": {
-	backgroundColor:"white"
-},
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
-} 
+/* tag */
+"Window": {
+  backgroundColor: "#51b11d",
+}
 
-"#label": {
-	font: {
-		fontSize: 12
-	}
+/* id */
+"#showButton": {
+  text: "日\n誌\nを\n見\nる",
+}
+
+"#writeButton": {
+  text: "日\n誌\nを\n書\nく",
+}
+
+/* class */
+".container": {
+  height: "100%",
+  width: "50%",
+}
+
+".background": {
+  height: "90%",
+  width: "90%",
+  backgroundColor: "#a27000",
+}
+
+".button": {
+  height: "95%",
+  width: "95%",
+  backgroundColor: "#ffffff",
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  font: {
+    fontSize: "32dp",
+  },
 }

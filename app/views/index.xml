@@ -1,5 +1,14 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-	</Window>
+  <Window id="index" layout="horizontal">
+    <View class="container">
+      <View class="background">
+        <Label id="showButton" class="button" />
+      </View>
+    </View>
+    <View class="container">
+      <View class="background">
+        <Label id="writeButton" class="button" />
+      </View>
+    </View>
+  </Window>
 </Alloy>
