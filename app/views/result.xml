@@ -1,0 +1,16 @@
+<Alloy>
+  <View id="view" layout="vertical">
+    <Require id="titlebar" src="titlebar" />
+    <ListView id="result" defaultItemTemplate="result">
+      <Templates>
+        <ItemTemplate name="result">
+          <View layout="vertical">
+            <Label id="date" bindId="date" />
+            <Label id="work" bindId="work" />
+            <Label id="memo" bindId="memo" />
+          </View>
+        </ItemTemplate>
+      </Templates>
+    </ListView>
+  </View>
+</Alloy>
