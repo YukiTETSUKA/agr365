@@ -1,4 +1,5 @@
 <Alloy>
+  <Collection src="diary" />
   <View id="view" layout="vertical">
     <Require id="titlebar" src="titlebar" />
     <ListView id="result" defaultItemTemplate="result">
@@ -11,6 +12,9 @@
           </View>
         </ItemTemplate>
       </Templates>
+      <ListSection dataCollection="diary" dataTransform="doTransform">
+        <ListItem date:text="{date}" work:text="{work}" memo:text="{memo}" />
+      </ListSection>
     </ListView>
   </View>
 </Alloy>
