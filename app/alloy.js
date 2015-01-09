@@ -12,3 +12,12 @@
 
 Alloy.Globals.parent;
 Alloy.Globals.viewStack = [];
+
+Alloy.Globals.works = [
+  "作業A",
+  "作業B",
+  "作業C",
+  "作業D",
+  "作業E",
+  "その他"
+];

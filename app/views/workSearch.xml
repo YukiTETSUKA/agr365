@@ -1,9 +1,13 @@
 <Alloy>
   <View id="view" layout="vertical">
     <Require id="titlebar" src="titlebar" title="作業で探す" />
-    <ListView id="works">
-      <ListSection>
-      </ListSection>
+    <ListView id="works" defaultItemTemplate="item">
+      <Templates>
+        <ItemTemplate name="item">
+          <Label id="workName" bindId="name" />
+          <Label id="workCount" bindId="count" />
+        </ItemTemplate>
+      </Templates>
     </ListView>
   </View>
 </Alloy>

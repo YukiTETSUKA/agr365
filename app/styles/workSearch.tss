@@ -5,4 +5,12 @@
   width: "90%",
 }
 
+"#workName": {
+  left: "5dp",
+}
+
+"#workCount": {
+  right: "5dp",
+}
+
 /* class */

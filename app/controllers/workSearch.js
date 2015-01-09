@@ -1,10 +1,13 @@
 var args = arguments[0] || {};
+var works = [];
+var section = Ti.UI.createListSection();
 
-function transformFunction(model) {
-  // var transform = model.toJSON();
-  // return transform;
-  return model;
+for(var i = 0; i < Alloy.Globals.works.length; i++){
+  works.push({
+    name: {text: Alloy.Globals.works[i]},
+    count: {text: "0件"}
+  });
 }
 
-// var works = Alloy.Collections.work;
-// works.fetch();
+section.setItems(works);
+$.works.setSections([section]);
