@@ -1,0 +1,6 @@
+<Alloy>
+  <View id="titlebar">
+    <Button id="backBtn" onClick="back" />
+    <Label id="title" />
+  </View>
+</Alloy>

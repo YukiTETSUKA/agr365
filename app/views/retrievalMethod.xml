@@ -1,6 +1,6 @@
 <Alloy>
   <View id="view" layout="vertical">
-    <View id="titlebar" />
+    <Require id="titlebar" src="titlebar" type="view" />
     <View layout="horizontal">
       <View class="container">
         <View class="background">

@@ -1,0 +1,20 @@
+/* tag */
+
+/* id */
+"#titlebar": {
+  height: "10%",
+  width: Ti.UI.FILL,
+  bottom: 0,
+}
+
+"#backBtn": {
+  height: "90%",
+  width: "20%",
+  left: "5dp",
+  title: "戻る",
+}
+
+"#title": {
+  height: Ti.UI.FILL,
+  width: Ti.UI.FILL,
+}
