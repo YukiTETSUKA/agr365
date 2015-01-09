@@ -10,5 +10,6 @@ if(args.from === "work"){
   $.titlebar.title.setText(Alloy.Globals.works[args.id]);
   result.fetch({query: 'SELECT * FROM diary WHERE workId=' + args.id});
 } else if(args.from === "date"){
-  Ti.API.debug('date');
+  $.titlebar.title.setText(args.title);
+  result.fetch({query: "SELECT * FROM diary WHERE date LIKE '" + args.date + "\%'"});
 }

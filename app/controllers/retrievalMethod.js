@@ -8,5 +8,8 @@ function openWorkSearch(){
 }
 
 function openDateSearch(){
-  Ti.API.debug('openDateSearch');
+  var view = Alloy.createController('dateSearch').getView();
+
+  Alloy.Globals.parent.add(view);
+  Alloy.Globals.viewStack.push(view);
 }

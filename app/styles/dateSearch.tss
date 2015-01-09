@@ -1,0 +1,39 @@
+/* tag */
+
+/* id */
+"#controlYear": {
+  height: "10%",
+  width: Ti.UI.FILL,
+}
+
+"#preYear": {
+  height: Ti.UI.FILL,
+  width: "30%",
+  title: "前年",
+}
+
+"#year": {
+  height: Ti.UI.FILL,
+  width: "40%",
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+}
+
+"#nextYear": {
+  height: Ti.UI.FILL,
+  width: "30%",
+  title: "翌年",
+}
+
+/* class */
+".months": {
+  height: "25%",
+  width: Ti.UI.FILL,
+}
+
+".month": {
+  height: Ti.UI.FILL,
+  width: "33%",
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  backgroundColor: "#ffffff",
+  borderWidth: 1,
+}

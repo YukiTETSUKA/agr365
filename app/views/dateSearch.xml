@@ -1,0 +1,32 @@
+<Alloy>
+  <View id="view" layout="vertical">
+    <Require id="titlebar" src="titlebar" title="日付で探す" />
+    <View id="controlYear" layout="horizontal">
+      <Button id="preYear" onClick="movePreYear" />
+      <Label id="year" />
+      <Button id="nextYear" onClick="moveNextYear" />
+    </View>
+    <View id="months" layout="vertical">
+      <View layout="horizontal" class="months">
+        <Label class="month" onClick="searchByDate" text="1月" />
+        <Label class="month" onClick="searchByDate" text="2月" />
+        <Label class="month" onClick="searchByDate" text="3月" />
+      </View>
+      <View layout="horizontal" class="months">
+        <Label class="month" onClick="searchByDate" text="4月" />
+        <Label class="month" onClick="searchByDate" text="5月" />
+        <Label class="month" onClick="searchByDate" text="6月" />
+      </View>
+      <View layout="horizontal" class="months">
+        <Label class="month" onClick="searchByDate" text="7月" />
+        <Label class="month" onClick="searchByDate" text="8月" />
+        <Label class="month" onClick="searchByDate" text="9月" />
+      </View>
+      <View layout="horizontal" class="months">
+        <Label class="month" onClick="searchByDate" text="10月" />
+        <Label class="month" onClick="searchByDate" text="11月" />
+        <Label class="month" onClick="searchByDate" text="12月" />
+      </View>
+    </View>
+  </View>
+</Alloy>
