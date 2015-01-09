@@ -3,12 +3,12 @@
     <Require id="titlebar" src="titlebar" type="view" />
     <View layout="horizontal">
       <View class="container">
-        <View class="background">
+        <View class="background" onClick="openWorkSearch">
           <Label id="workButton" class="button" />
         </View>
       </View>
       <View class="container">
-        <View class="background">
+        <View class="background" onClick="openDateSearch">
           <Label id="dateButton" class="button" />
         </View>
       </View>

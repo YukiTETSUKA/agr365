@@ -9,6 +9,11 @@
   backgroundColor: "#51b11d",
 }
 
+"#titlebar": {
+  height: "10%",
+  width: Ti.UI.FILL,
+}
+
 /* class */
 ".container": {
   height: Ti.UI.FILL,
