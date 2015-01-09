@@ -1,3 +1,7 @@
 var args = arguments[0] || {};
 
-$.titlebar.title.setText(Alloy.Globals.works[args.id]);
+if(args.from === "work"){
+  $.titlebar.title.setText(Alloy.Globals.works[args.id]);
+} else if(args.from === "date"){
+  Ti.API.debug('date');
+}
