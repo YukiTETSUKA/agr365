@@ -1,4 +1,7 @@
 /* tag */
+"ListView": {
+  backgroundColor: "#ffffff",
+}
 
 /* id */
 "#index": {
