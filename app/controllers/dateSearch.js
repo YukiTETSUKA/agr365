@@ -20,8 +20,7 @@ function searchByDate(e){
   };
   var resultView = Alloy.createController('result', properties).getView();
 
-  Alloy.Globals.parent.add(resultView);
-  Alloy.Globals.viewStack.push(resultView);
+  Alloy.Globals.index.add(resultView);
 }
 
 var date = new Date();

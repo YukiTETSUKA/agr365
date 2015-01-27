@@ -17,6 +17,5 @@ $.works.addEventListener('itemclick', function(e){
   var properties = {from: "work", id: e.itemIndex};
   Ti.API.debug(properties);
   var resultView = Alloy.createController('result', properties).getView();
-  Alloy.Globals.parent.add(resultView);
-  Alloy.Globals.viewStack.push(resultView);
+  Alloy.Globals.index.add(resultView);
 });

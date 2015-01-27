@@ -10,8 +10,7 @@
 //
 // Alloy.Globals.someGlobalFunction = function(){};
 
-Alloy.Globals.parent;
-Alloy.Globals.viewStack = [];
+Alloy.Globals.index;
 
 Alloy.Globals.works = [
   "作業A",

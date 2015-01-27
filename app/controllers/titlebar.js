@@ -4,5 +4,5 @@ args.title = args.title || "";
 $.title.setText(args.title);
 
 function back(e){
-  Alloy.Globals.parent.remove(Alloy.Globals.viewStack.pop());
+  Alloy.Globals.index.remove(e.source.getParent().getParent());
 }
