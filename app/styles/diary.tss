@@ -1,0 +1,55 @@
+/* tag */
+"View": {
+  height: Ti.UI.SIZE,
+}
+
+"ListView": {
+  height: "200dp",
+  width: "90%",
+  defaultItemTemplate: "work",
+}
+
+"Switch[platform=android]": {
+  style: Titanium.UI.Android.SWITCH_STYLE_CHECKBOX,
+}
+
+"ImageView": {
+  height: "50dp",
+  width: Ti.UI.SIZE,
+}
+
+"Label": {
+  left: "5dp",
+  height: Ti.UI.SIZE,
+}
+
+"TextArea": {
+  height: "100dp",
+  width: "90%",
+  top: "5dp",
+  backgroundColor: "white",
+}
+
+/* id */
+"#view": {
+  height: Ti.UI.FILL,
+}
+
+"#basicInfo": {
+  top: "10dp",
+}
+
+"#worksHeader": {
+  top="10dp",
+  backgroundColor: "white",
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+}
+
+"#weather": {
+  left: "10dp",
+}
+
+"#submit": {
+  right: "20dp",
+  title: "完了",
+}

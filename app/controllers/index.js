@@ -4,7 +4,7 @@ function openRetrievalMethod(){
 }
 
 function openWriteWin(){
-  Ti.API.debug('openWriteWin');
+  $.index.add(Alloy.createController('diary').getView());
 }
 
 Alloy.Globals.index = $.index;

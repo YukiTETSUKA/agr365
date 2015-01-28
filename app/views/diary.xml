@@ -1,0 +1,27 @@
+<Alloy>
+  <View id="view" layout="vertical">
+    <Require src="titlebar" />
+    <Label id="date" />
+    <View id="basicInfo" layout="horizontal">
+      <ImageView id="weather" />
+      <View layout="vertical">
+        <Label id="start" />
+        <Label id="temperature" />
+      </View>
+    </View>
+    <Label id="worksHeader" text="作業工程" />
+    <ListView id="works">
+      <Templates>
+        <ItemTemplate name="work">
+          <View layout="horizontal">
+            <Switch id="checkbox" bindId="checkbox" />
+            <Label id="work" bindId="work" />
+          </View>
+        </ItemTemplate>
+      </Templates>
+    </ListView>
+    <Label text="・その他" top="10dp" />
+    <TextArea id="memo" />
+    <Button id="submit" />
+  </View>
+</Alloy>
